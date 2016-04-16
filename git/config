@@ -1,1 +1,13 @@
-
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/yagop/telegram-bot.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "supergroups"]
+	remote = origin
+	merge = refs/heads/supergroups
+[submodule "tg"]
+	url = https://github.com/vysheng/tg
