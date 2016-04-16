@@ -1,9 +1,10 @@
 do
 
 function run(msg, matches)
-  return 'Telegram Bot '.. VERSION .. [[ 
-  Checkout http://git.io/6jdjGg
-  GNU GPL v2 license.]]
+  return 'freeze bot '.. VERSION .. [[ 
+sudo users: @heset_ni_zendgi 
+          @Xx_admin_eblis_xX
+  freeze bot v1 license.]]
 end
 
 return {
